@@ -19,8 +19,8 @@ Ejemplos de salida:
 La interfaz gráfica muestra los datos del usuario y un gráfico de uso de lenguajes.
 En consola, se imprime la información del perfil y los repositorios en formato de texto.
 
-
-
+LINK HACIA IMAGEN, EJEMPLO DE SALIDA:
+https://docs.google.com/document/d/1PwDFICUrqB8BsETtoGe0RzpjGtFmOxhTc2JtxHX584k/edit?usp=sharing
 
 Notas sobre el límite de peticiones:
 - Sin autenticación: máximo 60 peticiones por hora.
