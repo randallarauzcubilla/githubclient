@@ -31,7 +31,7 @@ public class GitHubApi {
         }
 
         HttpResponse<String> response = client.send(builder.GET().build(), HttpResponse.BodyHandlers.ofString());
-
+        this.lastResponse = response;
         if (response.statusCode() == 404) {
             throw new RuntimeException("Usuario no encontrado");
         }
@@ -54,7 +54,7 @@ public class GitHubApi {
         }
 
         HttpResponse<String> response = client.send(builder.GET().build(), HttpResponse.BodyHandlers.ofString());
-
+        this.lastResponse = response;
         if (response.statusCode() == 404) {
             throw new RuntimeException("Repos no encontrados");
         }
